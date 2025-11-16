@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mafiapedia</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #111;
+            color: #fff;
+        }
+
+        h1 {
+            margin-top: 40px;
+            font-size: 3rem;
+            letter-spacing: 3px;
+        }
+
+        .mobster-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            gap: 30px;
+        }
+
+        .mobster {
+            text-align: center;
+        }
+
+        .mobster img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            border: 3px solid #444;
+        }
+
+        .mobster img:hover {
+            transform: scale(1.06);
+            border-color: #bbb;
+        }
+
+        .mobster p {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Mafiapedia</h1>
+
+    <div class="mobster-grid">
+
+        <!-- Lucky Luciano -->
+        <div class="mobster">
+            <a href="luckyluciano.html">
+                <img src="luckyluciano.jpg" alt="Lucky Luciano">
+            </a>
+            <p>Lucky Luciano</p>
+        </div>
+
+        <!-- Vincent Gigante -->
+        <div class="mobster">
+            <a href="Vincentgigante.html">
+                <img src="vincentgigante.jpg" alt="Vincent Gigante">
+            </a>
+            <p>Vincent Gigante</p>
+        </div>
+
+        <!-- John Gotti -->
+        <div class="mobster">
+            <a href="johngotti.html">
+                <img src="johngotti.jpg" alt="John Gotti">
+            </a>
+            <p>John Gotti</p>
+        </div>
+
+        <!-- Carlo Gambino -->
+        <div class="mobster">
+            <a href="carlogambino.html">
+                <img src="carlogambino.jpg" alt="Carlo Gambino">
+            </a>
+            <p>Carlo Gambino</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
